@@ -62,7 +62,7 @@ public class KingAppMvcJavaConfig implements WebMvcConfigurer {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
 
         dataSource.setDriverClassName("org.postgresql.Driver");
-        dataSource.setUrl("jdbc:postgresql://localhost:5432/KingCalcPointsWebApp_db");
+        dataSource.setUrl("jdbc:postgresql://localhost:5432/kingcalcpointswebapp_db");
         dataSource.setUsername("postgres");
         dataSource.setPassword("postgresql");
 

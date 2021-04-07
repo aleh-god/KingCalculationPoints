@@ -1,4 +1,8 @@
 package KingCalculationPoints.WebControllers;
 
-public interface TransitionToSetPlayersMenu {
+public class TransitionToSetPlayersMenu  implements TransitionTo{
+    @Override
+    public String TransitionToView() {
+        return null;
+    }
 }

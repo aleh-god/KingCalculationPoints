@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>UserLoginMenu</title>
+</head>
+<body>
+
+<h1>User Login Menu</h1>
+
+<form th:method="POST" th:action="@{/2_UserMainMenu}" th:object="${loginModel}">
+
+    <label for="emailForLogin">Enter email:</label>
+    <input type="text" th:field="*{emailForLogin}" id="emailForLogin"/>
+    <div style="color:red" th:if="${#fields.hasErrors('emailForLogin')}" th:errors="*{emailForLogin}">Email Error</div>
+    <br/>
+    <input type="submit" value="Login!"/>
+</form>
+
+</body>
+</html>

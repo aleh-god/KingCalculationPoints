@@ -1,4 +1,8 @@
 package KingCalculationPoints.WebControllers;
 
-public interface TransitionToCurrentPlayerGameBoardMenu {
+public class TransitionToCurrentPlayerGameBoardMenu implements TransitionTo{
+    @Override
+    public String TransitionToView() {
+        return null;
+    }
 }

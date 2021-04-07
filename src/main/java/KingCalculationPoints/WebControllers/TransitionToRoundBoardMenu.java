@@ -1,4 +1,8 @@
 package KingCalculationPoints.WebControllers;
 
-public interface TransitionToRoundBoardMenu {
+public class TransitionToRoundBoardMenu  implements TransitionTo{
+    @Override
+    public String TransitionToView() {
+        return null;
+    }
 }

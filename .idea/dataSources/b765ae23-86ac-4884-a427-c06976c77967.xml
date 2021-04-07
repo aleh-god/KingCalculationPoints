@@ -46,7 +46,7 @@ false Africa/Brazzaville
 false Africa/Bujumbura
 false Africa/Cairo
 false Africa/Casablanca
-false Africa/Ceuta
+true Africa/Ceuta
 false Africa/Conakry
 false Africa/Dakar
 false Africa/Dar_es_Salaam
@@ -104,7 +104,7 @@ false America/Argentina/San_Luis
 false America/Argentina/Tucuman
 false America/Argentina/Ushuaia
 false America/Aruba
-true America/Asuncion
+false America/Asuncion
 false America/Atikokan
 true America/Atka
 false America/Bahia
@@ -146,7 +146,7 @@ false America/Fort_Nelson
 true America/Fort_Wayne
 false America/Fortaleza
 true America/Glace_Bay
-false America/Godthab
+true America/Godthab
 true America/Goose_Bay
 true America/Grand_Turk
 false America/Grenada
@@ -206,7 +206,7 @@ false America/Noronha
 true America/North_Dakota/Beulah
 true America/North_Dakota/Center
 true America/North_Dakota/New_Salem
-false America/Nuuk
+true America/Nuuk
 true America/Ojinaga
 false America/Panama
 true America/Pangnirtung
@@ -230,7 +230,7 @@ false America/Santarem
 true America/Santiago
 false America/Santo_Domingo
 false America/Sao_Paulo
-false America/Scoresbysund
+true America/Scoresbysund
 true America/Shiprock
 true America/Sitka
 false America/St_Barthelemy
@@ -262,9 +262,9 @@ false Antarctica/Palmer
 false Antarctica/Rothera
 true Antarctica/South_Pole
 false Antarctica/Syowa
-false Antarctica/Troll
+true Antarctica/Troll
 false Antarctica/Vostok
-false Arctic/Longyearbyen
+true Arctic/Longyearbyen
 false Asia/Aden
 false Asia/Almaty
 true Asia/Amman
@@ -279,7 +279,7 @@ false Asia/Bahrain
 false Asia/Baku
 false Asia/Bangkok
 false Asia/Barnaul
-false Asia/Beirut
+true Asia/Beirut
 false Asia/Bishkek
 false Asia/Brunei
 false Asia/Calcutta
@@ -294,7 +294,7 @@ false Asia/Dhaka
 false Asia/Dili
 false Asia/Dubai
 false Asia/Dushanbe
-false Asia/Famagusta
+true Asia/Famagusta
 true Asia/Gaza
 false Asia/Harbin
 true Asia/Hebron
@@ -324,7 +324,7 @@ false Asia/Magadan
 false Asia/Makassar
 false Asia/Manila
 false Asia/Muscat
-false Asia/Nicosia
+true Asia/Nicosia
 false Asia/Novokuznetsk
 false Asia/Novosibirsk
 false Asia/Omsk
@@ -364,14 +364,14 @@ false Asia/Yakutsk
 false Asia/Yangon
 false Asia/Yekaterinburg
 false Asia/Yerevan
-false Atlantic/Azores
+true Atlantic/Azores
 true Atlantic/Bermuda
-false Atlantic/Canary
+true Atlantic/Canary
 false Atlantic/Cape_Verde
-false Atlantic/Faeroe
-false Atlantic/Faroe
-false Atlantic/Jan_Mayen
-false Atlantic/Madeira
+true Atlantic/Faeroe
+true Atlantic/Faroe
+true Atlantic/Jan_Mayen
+true Atlantic/Madeira
 false Atlantic/Reykjavik
 false Atlantic/South_Georgia
 false Atlantic/St_Helena
@@ -455,7 +455,7 @@ false EGT
 false EST
 true EST5EDT
 false Egypt
-true Eire
+false Eire
 false Etc/GMT
 false Etc/GMT+0
 false Etc/GMT+1
@@ -491,69 +491,69 @@ false Etc/UCT
 false Etc/UTC
 false Etc/Universal
 false Etc/Zulu
-false Europe/Amsterdam
-false Europe/Andorra
+true Europe/Amsterdam
+true Europe/Andorra
 false Europe/Astrakhan
-false Europe/Athens
-false Europe/Belfast
-false Europe/Belgrade
-false Europe/Berlin
-false Europe/Bratislava
-false Europe/Brussels
-false Europe/Bucharest
-false Europe/Budapest
-false Europe/Busingen
-false Europe/Chisinau
-false Europe/Copenhagen
-true Europe/Dublin
-false Europe/Gibraltar
-false Europe/Guernsey
-false Europe/Helsinki
-false Europe/Isle_of_Man
+true Europe/Athens
+true Europe/Belfast
+true Europe/Belgrade
+true Europe/Berlin
+true Europe/Bratislava
+true Europe/Brussels
+true Europe/Bucharest
+true Europe/Budapest
+true Europe/Busingen
+true Europe/Chisinau
+true Europe/Copenhagen
+false Europe/Dublin
+true Europe/Gibraltar
+true Europe/Guernsey
+true Europe/Helsinki
+true Europe/Isle_of_Man
 false Europe/Istanbul
-false Europe/Jersey
+true Europe/Jersey
 false Europe/Kaliningrad
-false Europe/Kiev
+true Europe/Kiev
 false Europe/Kirov
-false Europe/Lisbon
-false Europe/Ljubljana
-false Europe/London
-false Europe/Luxembourg
-false Europe/Madrid
-false Europe/Malta
-false Europe/Mariehamn
+true Europe/Lisbon
+true Europe/Ljubljana
+true Europe/London
+true Europe/Luxembourg
+true Europe/Madrid
+true Europe/Malta
+true Europe/Mariehamn
 false Europe/Minsk
-false Europe/Monaco
+true Europe/Monaco
 false Europe/Moscow
-false Europe/Nicosia
-false Europe/Oslo
-false Europe/Paris
-false Europe/Podgorica
-false Europe/Prague
-false Europe/Riga
-false Europe/Rome
+true Europe/Nicosia
+true Europe/Oslo
+true Europe/Paris
+true Europe/Podgorica
+true Europe/Prague
+true Europe/Riga
+true Europe/Rome
 false Europe/Samara
-false Europe/San_Marino
-false Europe/Sarajevo
+true Europe/San_Marino
+true Europe/Sarajevo
 false Europe/Saratov
 false Europe/Simferopol
-false Europe/Skopje
-false Europe/Sofia
-false Europe/Stockholm
-false Europe/Tallinn
-false Europe/Tirane
-false Europe/Tiraspol
+true Europe/Skopje
+true Europe/Sofia
+true Europe/Stockholm
+true Europe/Tallinn
+true Europe/Tirane
+true Europe/Tiraspol
 false Europe/Ulyanovsk
-false Europe/Uzhgorod
-false Europe/Vaduz
-false Europe/Vatican
-false Europe/Vienna
-false Europe/Vilnius
+true Europe/Uzhgorod
+true Europe/Vaduz
+true Europe/Vatican
+true Europe/Vienna
+true Europe/Vilnius
 false Europe/Volgograd
-false Europe/Warsaw
-false Europe/Zagreb
-false Europe/Zaporozhye
-false Europe/Zurich
+true Europe/Warsaw
+true Europe/Zagreb
+true Europe/Zaporozhye
+true Europe/Zurich
 false FET
 true FJST
 false FJT
@@ -564,8 +564,8 @@ false FNT
 false Factory
 false GALT
 false GAMT
-false GB
-false GB-Eire
+true GB
+true GB-Eire
 false GEST
 false GET
 false GFT
@@ -625,7 +625,7 @@ false MAWT
 true MDT
 true MEST
 true MESZ
-false MET
+true MET
 true METDST
 false MEZ
 false MHT
@@ -674,7 +674,7 @@ false PST
 true PST8PDT
 false PWT
 true PYST
-true PYT
+false PYT
 true Pacific/Apia
 true Pacific/Auckland
 false Pacific/Bougainville
@@ -718,8 +718,8 @@ false Pacific/Truk
 false Pacific/Wake
 false Pacific/Wallis
 false Pacific/Yap
-false Poland
-false Portugal
+true Poland
+true Portugal
 false RET
 false ROC
 false ROK
@@ -770,7 +770,7 @@ false WAKT
 false WAST
 false WAT
 true WDT
-false WET
+true WET
 true WETDST
 false WFT
 true WGST
@@ -784,7 +784,7 @@ false YEKT
 false Z
 false Zulu
 </TimeZones>
-      <StartupTime>1616824640</StartupTime>
+      <StartupTime>1617428903</StartupTime>
     </root>
     <database id="2" parent="1" name="first_db">
       <ObjectId>16394</ObjectId>
@@ -793,13 +793,19 @@ false Zulu
     <database id="3" parent="1" name="kingcalcpointswebapp_db">
       <ObjectId>16402</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>534</IntrospectionStateNumber>
+      <IntrospectionStateNumber>579</IntrospectionStateNumber>
+      <Relations>sequence|table|16509|16511|1
+sequence|table|16537|16539|1
+sequence|table|16483|16485|1
+sequence|table|16495|16497|1
+sequence|table|16548|16550|1
+</Relations>
     </database>
     <database id="4" parent="1" name="postgres">
       <ObjectId>13442</ObjectId>
       <Comment>default administrative connection database</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>535</IntrospectionStateNumber>
+      <IntrospectionStateNumber>560</IntrospectionStateNumber>
       <Current>1</Current>
     </database>
     <role id="5" parent="1" name="pg_execute_server_program">
@@ -870,6 +876,7 @@ UC/10
 </Acl>
       <StateNumber>287</StateNumber>
       <Owner>postgres</Owner>
+      <IntrospectionStateNumber>580</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <extension id="19" parent="3" name="plpgsql">
@@ -994,7 +1001,7 @@ UC/10
 </Acl>
       <StateNumber>287</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>536</IntrospectionStateNumber>
+      <IntrospectionStateNumber>561</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <extension id="34" parent="4" name="adminpack">
@@ -1102,5 +1109,445 @@ UC/10
       <HandlerId>335</HandlerId>
       <Type>index</Type>
     </access-method>
+    <sequence id="47" parent="18" name="c_typecardgamesking_idtypecard_seq">
+      <ObjectId>16537</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>576</StateNumber>
+      <DataType>integer|0s</DataType>
+    </sequence>
+    <sequence id="48" parent="18" name="j_cardgameking_id_seq">
+      <ObjectId>16548</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>578</StateNumber>
+      <DataType>integer|0s</DataType>
+    </sequence>
+    <sequence id="49" parent="18" name="j_partygames_idpartygame_seq">
+      <ObjectId>16509</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>575</StateNumber>
+      <DataType>integer|0s</DataType>
+    </sequence>
+    <sequence id="50" parent="18" name="j_tricksgame_id_seq">
+      <ObjectId>16495</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>574</StateNumber>
+      <DataType>integer|0s</DataType>
+    </sequence>
+    <sequence id="51" parent="18" name="r_users_iduser_seq">
+      <ObjectId>16483</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>573</StateNumber>
+      <DataType>integer|0s</DataType>
+    </sequence>
+    <table id="52" parent="18" name="c_typecardgamesking">
+      <ObjectId>16539</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>578</StateNumber>
+    </table>
+    <table id="53" parent="18" name="j_cardgameking">
+      <ObjectId>16550</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>578</StateNumber>
+    </table>
+    <table id="54" parent="18" name="j_partygames">
+      <ObjectId>16511</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>575</StateNumber>
+    </table>
+    <table id="55" parent="18" name="j_tricksgame">
+      <ObjectId>16497</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>574</StateNumber>
+    </table>
+    <table id="56" parent="18" name="r_users">
+      <ObjectId>16485</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>575</StateNumber>
+    </table>
+    <column id="57" parent="52" name="idtypecard">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>576</StateNumber>
+      <DefaultExpression>nextval(&apos;c_typecardgamesking_idtypecard_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="58" parent="52" name="typegame">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>576</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="59" parent="52" name="c_typecardgamesking_pkey">
+      <ObjectId>16544</ObjectId>
+      <StateNumber>576</StateNumber>
+      <ColNames>idtypecard</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>1978</ClassIds>
+    </index>
+    <index id="60" parent="52" name="c_typecardgamesking_typegame_key">
+      <ObjectId>16546</ObjectId>
+      <StateNumber>576</StateNumber>
+      <ColNames>typegame</ColNames>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>100</CollationIds>
+      <CollationNames>default</CollationNames>
+      <ClassIds>3126</ClassIds>
+    </index>
+    <key id="61" parent="52" name="c_typecardgamesking_pkey">
+      <ObjectId>16545</ObjectId>
+      <StateNumber>576</StateNumber>
+      <ColNames>idtypecard</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>c_typecardgamesking_pkey</UnderlyingIndexName>
+    </key>
+    <key id="62" parent="52" name="c_typecardgamesking_typegame_key">
+      <ObjectId>16547</ObjectId>
+      <StateNumber>576</StateNumber>
+      <ColNames>typegame</ColNames>
+      <UnderlyingIndexName>c_typecardgamesking_typegame_key</UnderlyingIndexName>
+    </key>
+    <check id="63" parent="52" name="c_typecardgamesking_typegame_check">
+      <ObjectId>16543</ObjectId>
+      <StateNumber>576</StateNumber>
+      <ColNames>typegame</ColNames>
+      <Predicate>(typegame)::text &lt;&gt; &apos;&apos;::text</Predicate>
+    </check>
+    <column id="64" parent="53" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>578</StateNumber>
+      <DefaultExpression>nextval(&apos;j_cardgameking_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="65" parent="53" name="idpartygame">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>578</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="66" parent="53" name="idplayerorder">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>578</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="67" parent="53" name="idtypecard">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>578</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="68" parent="53" name="j_cardgameking_pkey">
+      <ObjectId>16554</ObjectId>
+      <StateNumber>578</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>1978</ClassIds>
+    </index>
+    <key id="69" parent="53" name="j_cardgameking_pkey">
+      <ObjectId>16555</ObjectId>
+      <StateNumber>578</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>j_cardgameking_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="70" parent="53" name="j_cardgameking_idpartygame_fkey">
+      <ObjectId>16556</ObjectId>
+      <StateNumber>578</StateNumber>
+      <ColNames>idpartygame</ColNames>
+      <RefTableId>16511</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>j_partygames</RefTableName>
+      <RefKeyName>j_partygames_pkey</RefKeyName>
+      <RefColNames>idpartygame</RefColNames>
+    </foreign-key>
+    <foreign-key id="71" parent="53" name="j_cardgameking_idplayerorder_fkey">
+      <ObjectId>16561</ObjectId>
+      <StateNumber>578</StateNumber>
+      <ColNames>idplayerorder</ColNames>
+      <RefTableId>16485</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>r_users</RefTableName>
+      <RefKeyName>r_users_pkey</RefKeyName>
+      <RefColNames>iduser</RefColNames>
+    </foreign-key>
+    <foreign-key id="72" parent="53" name="j_cardgameking_idtypecard_fkey">
+      <ObjectId>16566</ObjectId>
+      <StateNumber>578</StateNumber>
+      <ColNames>idtypecard</ColNames>
+      <RefTableId>16539</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>c_typecardgamesking</RefTableName>
+      <RefKeyName>c_typecardgamesking_pkey</RefKeyName>
+      <RefColNames>idtypecard</RefColNames>
+    </foreign-key>
+    <column id="73" parent="54" name="idpartygame">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>575</StateNumber>
+      <DefaultExpression>nextval(&apos;j_partygames_idpartygame_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="74" parent="54" name="idplayerone">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>575</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="75" parent="54" name="idplayertwo">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>575</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="76" parent="54" name="idplayerthree">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>575</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="77" parent="54" name="idplayerfour">
+      <Position>5</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>575</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="78" parent="54" name="j_partygames_pkey">
+      <ObjectId>16515</ObjectId>
+      <StateNumber>575</StateNumber>
+      <ColNames>idpartygame</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>1978</ClassIds>
+    </index>
+    <key id="79" parent="54" name="j_partygames_pkey">
+      <ObjectId>16516</ObjectId>
+      <StateNumber>575</StateNumber>
+      <ColNames>idpartygame</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>j_partygames_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="80" parent="54" name="j_partygames_idplayerone_fkey">
+      <ObjectId>16517</ObjectId>
+      <StateNumber>575</StateNumber>
+      <ColNames>idplayerone</ColNames>
+      <RefTableId>16485</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>r_users</RefTableName>
+      <RefKeyName>r_users_pkey</RefKeyName>
+      <RefColNames>iduser</RefColNames>
+    </foreign-key>
+    <foreign-key id="81" parent="54" name="j_partygames_idplayertwo_fkey">
+      <ObjectId>16522</ObjectId>
+      <StateNumber>575</StateNumber>
+      <ColNames>idplayertwo</ColNames>
+      <RefTableId>16485</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>r_users</RefTableName>
+      <RefKeyName>r_users_pkey</RefKeyName>
+      <RefColNames>iduser</RefColNames>
+    </foreign-key>
+    <foreign-key id="82" parent="54" name="j_partygames_idplayerthree_fkey">
+      <ObjectId>16527</ObjectId>
+      <StateNumber>575</StateNumber>
+      <ColNames>idplayerthree</ColNames>
+      <RefTableId>16485</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>r_users</RefTableName>
+      <RefKeyName>r_users_pkey</RefKeyName>
+      <RefColNames>iduser</RefColNames>
+    </foreign-key>
+    <foreign-key id="83" parent="54" name="j_partygames_idplayerfour_fkey">
+      <ObjectId>16532</ObjectId>
+      <StateNumber>575</StateNumber>
+      <ColNames>idplayerfour</ColNames>
+      <RefTableId>16485</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>r_users</RefTableName>
+      <RefKeyName>r_users_pkey</RefKeyName>
+      <RefColNames>iduser</RefColNames>
+    </foreign-key>
+    <column id="84" parent="55" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>574</StateNumber>
+      <DefaultExpression>nextval(&apos;j_tricksgame_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="85" parent="55" name="idcardgameking">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>574</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="86" parent="55" name="playeronetrickscounter">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>574</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="87" parent="55" name="playertwotrickscounter">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>574</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="88" parent="55" name="playerthreetrickscounter">
+      <Position>5</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>574</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="89" parent="55" name="playerfourtrickscounter">
+      <Position>6</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>574</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="90" parent="55" name="j_tricksgame_pkey">
+      <ObjectId>16505</ObjectId>
+      <StateNumber>574</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>1978</ClassIds>
+    </index>
+    <index id="91" parent="55" name="j_tricksgame_idcardgameking_key">
+      <ObjectId>16507</ObjectId>
+      <StateNumber>574</StateNumber>
+      <ColNames>idcardgameking</ColNames>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>1978</ClassIds>
+    </index>
+    <key id="92" parent="55" name="j_tricksgame_pkey">
+      <ObjectId>16506</ObjectId>
+      <StateNumber>574</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>j_tricksgame_pkey</UnderlyingIndexName>
+    </key>
+    <key id="93" parent="55" name="j_tricksgame_idcardgameking_key">
+      <ObjectId>16508</ObjectId>
+      <StateNumber>574</StateNumber>
+      <ColNames>idcardgameking</ColNames>
+      <UnderlyingIndexName>j_tricksgame_idcardgameking_key</UnderlyingIndexName>
+    </key>
+    <check id="94" parent="55" name="j_tricksgame_playerfourtrickscounter_check">
+      <ObjectId>16504</ObjectId>
+      <StateNumber>574</StateNumber>
+      <ColNames>playerfourtrickscounter</ColNames>
+      <Predicate>(playerfourtrickscounter &gt; 0) AND (playerfourtrickscounter &lt; 8)</Predicate>
+    </check>
+    <check id="95" parent="55" name="j_tricksgame_playeronetrickscounter_check">
+      <ObjectId>16501</ObjectId>
+      <StateNumber>574</StateNumber>
+      <ColNames>playeronetrickscounter</ColNames>
+      <Predicate>(playeronetrickscounter &gt; 0) AND (playeronetrickscounter &lt; 8)</Predicate>
+    </check>
+    <check id="96" parent="55" name="j_tricksgame_playerthreetrickscounter_check">
+      <ObjectId>16503</ObjectId>
+      <StateNumber>574</StateNumber>
+      <ColNames>playerthreetrickscounter</ColNames>
+      <Predicate>(playerthreetrickscounter &gt; 0) AND (playerthreetrickscounter &lt; 8)</Predicate>
+    </check>
+    <check id="97" parent="55" name="j_tricksgame_playertwotrickscounter_check">
+      <ObjectId>16502</ObjectId>
+      <StateNumber>574</StateNumber>
+      <ColNames>playertwotrickscounter</ColNames>
+      <Predicate>(playertwotrickscounter &gt; 0) AND (playertwotrickscounter &lt; 8)</Predicate>
+    </check>
+    <column id="98" parent="56" name="iduser">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>573</StateNumber>
+      <DefaultExpression>nextval(&apos;r_users_iduser_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="99" parent="56" name="emailuser">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>573</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="100" parent="56" name="nameuser">
+      <Position>3</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>573</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="101" parent="56" name="r_users_pkey">
+      <ObjectId>16491</ObjectId>
+      <StateNumber>573</StateNumber>
+      <ColNames>iduser</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>1978</ClassIds>
+    </index>
+    <index id="102" parent="56" name="r_users_emailuser_key">
+      <ObjectId>16493</ObjectId>
+      <StateNumber>573</StateNumber>
+      <ColNames>emailuser</ColNames>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>100</CollationIds>
+      <CollationNames>default</CollationNames>
+      <ClassIds>3126</ClassIds>
+    </index>
+    <key id="103" parent="56" name="r_users_pkey">
+      <ObjectId>16492</ObjectId>
+      <StateNumber>573</StateNumber>
+      <ColNames>iduser</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>r_users_pkey</UnderlyingIndexName>
+    </key>
+    <key id="104" parent="56" name="r_users_emailuser_key">
+      <ObjectId>16494</ObjectId>
+      <StateNumber>573</StateNumber>
+      <ColNames>emailuser</ColNames>
+      <UnderlyingIndexName>r_users_emailuser_key</UnderlyingIndexName>
+    </key>
+    <check id="105" parent="56" name="r_users_emailuser_check">
+      <ObjectId>16489</ObjectId>
+      <StateNumber>573</StateNumber>
+      <ColNames>emailuser</ColNames>
+      <Predicate>(emailuser)::text &lt;&gt; &apos;&apos;::text</Predicate>
+    </check>
+    <check id="106" parent="56" name="r_users_nameuser_check">
+      <ObjectId>16490</ObjectId>
+      <StateNumber>573</StateNumber>
+      <ColNames>nameuser</ColNames>
+      <Predicate>(nameuser)::text &lt;&gt; &apos;&apos;::text</Predicate>
+    </check>
   </database-model>
 </dataSource>
