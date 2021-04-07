@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>UserMainMenu</title>
+</head>
+<body>
+
+<p th:text="Welcome, ${loginModel.getUserName()}">VALUE</p>
+
+<ul>
+    <li><a th:href="@{/king/start}">Start new game.</a></li>
+    <li><a th:href="@{/king/load}">Continue unfinished game.</a></li>
+    <li><a th:href="@{/king/ladder}">View Leader board menu.</a></li>
+    <li><a th:href="@{/king/exit}">Exit to login menu.</a></li>
+</ul>
+
+</body>
+</html>

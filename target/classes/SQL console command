@@ -1,0 +1,94 @@
+// R - реестр сущностей
+// С - каталог типов
+// J - журнал
+// Префикс_тип_имяТаблицы
+
+// С помощью выражения PRIMARY KEY столбец можно сделать первичным ключом.
+// SERIAL - автоинкрементирующееся числовое значение, которое занимает 4 байта и может хранить числа от 1 до 2147483647.
+
+// Комманды для DAO
+SELECT * FROM r_users;
+SELECT idUser FROM R_users WHERE EmailUser='Xan@gmail.com';
+
+// Удаление таблиц
+DROP TABLE users_db;
+DROP TABLE PartyGame_db
+DROP TABLE TricksGame_db;
+
+// Создание таблиц
+CREATE TABLE R_users
+(
+    idUser SERIAL PRIMARY KEY,
+    EmailUser CHARACTER VARYING(30) UNIQUE NOT NULL CHECK(EmailUser !=''),
+    NameUser CHARACTER VARYING(30) NOT NULL CHECK(NameUser !='')
+);
+
+CREATE TABLE J_TricksGame
+(
+    id SERIAL PRIMARY KEY,
+    idCardGameKing INTEGER UNIQUE NOT NULL,
+    playerOneTricksCounter INTEGER CHECK(playerOneTricksCounter > 0 AND playerOneTricksCounter < 8),
+    playerTwoTricksCounter INTEGER CHECK(playerTwoTricksCounter > 0 AND playerTwoTricksCounter < 8),
+    playerThreeTricksCounter INTEGER CHECK(playerThreeTricksCounter > 0 AND playerThreeTricksCounter < 8),
+    playerFourTricksCounter INTEGER CHECK(playerFourTricksCounter > 0 AND playerFourTricksCounter < 8)
+);
+
+CREATE TABLE J_PartyGames
+(
+    idPartyGame SERIAL PRIMARY KEY,
+    idPlayerOne INTEGER NOT NULL REFERENCES R_users(idUser),
+    idPlayerTwo INTEGER NOT NULL REFERENCES R_users(idUser),
+    idPlayerThree INTEGER NOT NULL REFERENCES R_users(idUser),
+    idPlayerFour INTEGER NOT NULL REFERENCES R_users(idUser)
+);
+
+CREATE TABLE C_TypeCardGamesKing
+(
+    idTypeCard SERIAL PRIMARY KEY,
+    typeGame CHARACTER VARYING(30) UNIQUE NOT NULL CHECK (typeGame != '')
+);
+
+CREATE TABLE J_CardGameKing
+(
+    Id       SERIAL PRIMARY KEY,
+    idPartyGame INTEGER NOT NULL REFERENCES J_PartyGames(idPartyGame),
+    idPlayerOrder INTEGER NOT NULL REFERENCES R_users(idUser),
+    idTypeCard INTEGER NOT NULL REFERENCES C_TypeCardGamesKing(idTypeCard)
+);
+
+// Заполнение таблиц
+
+INSERT INTO R_users VALUES(1, 'Xan@gmail.com', 'Alexander');
+INSERT INTO r_users VALUES (2, 'Natasha@yandex.ru','Natasha');
+INSERT INTO r_users VALUES (3, 'Matvey.Bog@gmail.com','Matvey');
+INSERT INTO r_users VALUES (4, 'SuperBogdan@yandex.ru','Bogdan');
+INSERT INTO r_users VALUES (5, 'Ivan2009@gmail.com','Ivan');
+
+INSERT INTO C_TypeCardGamesKing  (idTypeCard, typeGame)
+VALUES
+(1, 'takeTricks'),
+(2, 'takeBoys'),
+(3, 'takeGirls'),
+(4, 'takeHearts'),
+(5, 'takeKing'),
+(6, 'takeLastTwo'),
+(7, 'takeBFG'),
+(10, 'takeBFGTricks'),
+(11, 'takeBFGBoys'),
+(12, 'takeBFGGirls'),
+(13, 'takeBFGHearts'),
+(14, 'takeBFGKing'),
+(15, 'takeBFGLastTwo'),
+(20, 'doNotTakeTricks'),
+(21, 'doNotTakeBoys'),
+(22, 'doNotTakeGirls'),
+(23, 'doNotTakeHearts'),
+(24, 'doNotTakeKing'),
+(25, 'doNotTakeLastTwo'),
+(26, 'doNotTakeBFG'),
+(31, 'doNotTakeBFGTricks'),
+(32, 'doNotTakeBFGBoys'),
+(33, 'doNotTakeBFGGirls'),
+(34, 'doNotTakeBFGHearts'),
+(35, 'doNotTakeBFGKing'),
+(36, 'doNotTakeBFGLastTwo');

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SetPlayersMenu</title>
+</head>
+<body>
+
+<p>Please, insert the other three players names:</p>
+
+<form th:method="POST" th:action="@{/3_PartyBoardMenu}" th:object="${setPlayersModel}">
+<!-- Форма для ввода данных, где: Тип метода, на какой адресс отправить, объект модели для хранения данных и связи с шаблоном -->
+
+    <br/>
+    <label for="labelPlayerTwo">Enter email Player Two: </label>
+    <input type="text" th:field="*{emailPlayerTwo}" id="labelPlayerTwo"/>
+
+    <br/>
+    <label for="labelPlayerTree">Enter email Player Tree: </label>
+    <input type="text" th:field="*{emailPlayerTree}" id="labelPlayerTree"/>
+
+    <br/>
+    <label for="labelPlayerFour">Enter email Player Four: </label>
+    <input type="text" th:field="*{emailPlayerFour}" id="labelPlayerFour"/>
+
+    <br/>
+    <input type="submit" value="Start game!"/>     <!-- кнопка с подписью -->
+</form>
+
+<a th:href="@{/king/main}">Enter in main menu.</a>
+<a th:href="@{/king/exit}">Exit to login menu.</a>
+
+</body>
+</html>
+
+<!--
+     <label for="emailPlayerOne">Enter email Player One: </label>
+    <input type="text" th:field="*{emailPlayerOne}" id="emailPlayerOne"/>
+    <div style="color:red" th:if="${#fields.hasErrors('email')}" th:errors="*{emailPlayerOne}">Email Error</div>
+
+    <br/>
+    <label for="emailPlayerTwo">Enter email Player Two: </label>
+    <input type="text" th:field="*{emailPlayerTwo}" id="emailPlayerTwo"/>
+    <div style="color:red" th:if="${#fields.hasErrors('email')}" th:errors="*{emailPlayerTwo}">Email Error</div>
+
+    <br/>
+    <label for="emailPlayerTree">Enter email Player Tree: </label>
+    <input type="text" th:field="*{emailPlayerTree}" id="emailPlayerTree"/>
+    <div style="color:red" th:if="${#fields.hasErrors('email')}" th:errors="*{emailPlayerTree}">Email Error</div>
+
+    <br/>
+    <label for="emailPlayerFour">Enter email Player Four: </label>
+    <input type="text" th:field="*{emailPlayerFour}" id="emailPlayerFour"/>
+    <div style="color:red" th:if="${#fields.hasErrors('email')}" th:errors="*{emailPlayerFour}">Email Error</div>
+ -->
